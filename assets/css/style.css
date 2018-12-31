@@ -1,0 +1,111 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-move {
+  cursor: move;
+}
+
+@media screen and (min-width: 480px) {
+  .border-dashed {
+    padding: 10px;
+  }
+  .img-responsive {
+    max-width: 70px;
+    max-height: 70px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .border-dashed {
+    padding: 25px;
+  }
+  .img-responsive {
+    max-width: 90px;
+    max-height: 90px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .border-dashed {
+    padding: 30px;
+  }
+  .img-responsive {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+.border-dashed {
+  margin: 10px;
+
+  background: #ff0030;
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.3em;
+  border: 2px dashed #fff;
+  border-radius: 10px;
+  border-bottom-left-radius: 3px 3px;
+  box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  text-shadow: -1px -1px #aa3030;
+  font-weight: normal;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.choice {
+  z-index: 10000;
+}
+
+.my-bg-gray {
+  background-color: #cacaca;
+}
+.pad-bottom-min {
+  padding: 16px;
+}
+
+.carousel-opt {
+  padding-bottom: 0px;
+  bottom: -13px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.box {
+  padding: 2px 16px;
+}
+
+/******************************/
+
+.lightbox-bg {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.status {
+  display: none;
+  position: absolute;
+  z-index: 110;
+  text-align: center;
+  width: 80%;
+  top: 220px;
+  left: 47px;
+}
+.status p {
+  background: white;
+  padding: 30px;
+}
